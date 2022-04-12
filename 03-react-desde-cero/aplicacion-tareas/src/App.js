@@ -1,5 +1,7 @@
 import './App.css';
 import freeCodeCampLogo from './img/freecodecamp-logo.png';
+import ListaDeTareas from './componentes/ListaDeTareas.jsx';
+
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
           src={freeCodeCampLogo}
           className='freecodecamp-logo' 
           alt='Logo de freeCodeCamp '/> 
+      </div>
+      <div className='tareas-lista-principal'>
+        <h1>Mis Tareas</h1>
+        <ListaDeTareas />
       </div>
     </div>
   );
